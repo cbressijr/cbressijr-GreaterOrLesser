@@ -1,4 +1,3 @@
-
 public class GreaterOrLesser {
     /**
      * Let's say part of a calculator app has to judge whether one number is bigger than another. This problem will
@@ -10,6 +9,12 @@ public class GreaterOrLesser {
      *          If neither is true, return "Equal". This problem is case-sensitive!
      */
     public String decide(int a, int b){
+        if(a<b){
+            return "Lesser";
+        } else if(a>b){
+            return "Greater";
+        } else {
         return "Equal";
+        }
     }
 }
